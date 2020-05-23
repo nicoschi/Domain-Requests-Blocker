@@ -2,7 +2,7 @@
   "description": "Request blocker per domain",
   "manifest_version": 2,
   "name": "Domain Requests Blocker",
-  "version": "0.1",
+  "version": "0.1.0",
 
   "permissions": [
     "webRequest",
