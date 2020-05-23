@@ -3,8 +3,8 @@
     "domain-requests-blocker@nicoschi.addons.mozilla.org": {
       "updates": [
         {
-          "version": "0.1",
-          "update_link": "https://raw.githubusercontent.com/nicoschi/domain-requests-blocker/update.json"
+          "version": "0.1.0",
+          "update_link": "https://github.com/nicoschi/domain-requests-blocker/releases/download/v0.1.0/domain-requests-blocker.xpi"
         }
       ]
     }
