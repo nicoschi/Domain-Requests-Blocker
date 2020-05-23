@@ -22,7 +22,7 @@
 
   "browser_specific_settings": {
     "gecko": {
-      "id": "69372e5d-ac35-4917-b3d7-739a65ce15f1",
+      "id": "domain-requests-blocker@nicoschi.addons.mozilla.org",
       "strict_min_version": "76.0"
     }
   }
