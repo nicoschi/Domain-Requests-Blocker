@@ -23,7 +23,8 @@
   "browser_specific_settings": {
     "gecko": {
       "id": "domain-requests-blocker@nicoschi.addons.mozilla.org",
-      "strict_min_version": "76.0"
+      "strict_min_version": "76.0",
+      "update_url": "https://raw.githubusercontent.com/nicoschi/domain-requests-blocker/master/update.json"
     }
   }
 }
