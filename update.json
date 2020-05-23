@@ -1,6 +1,6 @@
 {
   "addons": {
-    "{69372e5d-ac35-4917-b3d7-739a65ce15f1}": {
+    "domain-requests-blocker@nicoschi.addons.mozilla.org": {
       "updates": [
         {
           "version": "0.1",
