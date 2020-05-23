@@ -1,0 +1,12 @@
+{
+  "addons": {
+    "{69372e5d-ac35-4917-b3d7-739a65ce15f1}": {
+      "updates": [
+        {
+          "version": "0.1",
+          "update_link": "https://raw.githubusercontent.com/nicoschi/domain-requests-blocker/update.json"
+        }
+      ]
+    }
+  }
+}
