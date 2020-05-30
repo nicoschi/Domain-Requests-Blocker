@@ -26,7 +26,7 @@ browser.webRequest.onBeforeRequest.addListener(
     let cancel = false;
 
     optionsObject.forEach((option) => {
-      const addressBarUrlRegExp = new RegExp(option.addressBarUrl);
+      const addressBarUrlRegExp = new RegExp(option.addressBarUrlPattern);
 
       if(addressBarUrlRegExp.test(documentUrl)) {
         const requestsToBlockPatterns = option.requestsToBlockPatterns;
@@ -35,7 +35,7 @@ browser.webRequest.onBeforeRequest.addListener(
           const requestToBlockRegExp = new RegExp(requestToBlockPattern);
 
           if(requestToBlockRegExp.test(url)) {
-            console.log("addressBarUrl " + option.addressBarUrl);
+            console.log("addressBarUrl " + option.addressBarUrlPattern);
             console.log("request to block: " + requestToBlockPattern);
             console.log("Canceling " + url + " request");
             console.log('----------');
