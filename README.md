@@ -7,9 +7,9 @@ If you want to block requests regardless the url in the browser address bar you 
 ## Installation
 
 1. Open the [releases page](https://github.com/nicoschi/domain-requests-blocker/releases)
-2. Click on the newer one release
-3. Click on domain_requests_blocker-x.x.x-an+fx.xpi
-4. Add the web extension to Firefox 
+2. Click on domain_requests_blocker-x.x.x-an+fx.xpi on the newer release
+3. Allow github.com to install Firefox Add-on
+4. Add the add-on to Firefox 
 
 ## Settings
 
