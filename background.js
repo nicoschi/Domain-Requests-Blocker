@@ -26,18 +26,17 @@ browser.webRequest.onBeforeRequest.addListener(
     let cancel = false;
 
     optionsObject.forEach((option) => {
-      const domainRegExp = new RegExp(option.domain);
+      const addressBarUrlRegExp = new RegExp(option.addressBarUrl);
 
-      if(domainRegExp.test(documentUrl)) {
-        console.log("domain " + option.domain);
+      if(addressBarUrlRegExp.test(documentUrl)) {
+        const requestsToBlockPatterns = option.requestsToBlockPatterns;
 
-        const assets = option.assets;
+        requestsToBlockPatterns.forEach((requestToBlockPattern) => {
+          const requestToBlockRegExp = new RegExp(requestToBlockPattern);
 
-        assets.forEach((asset) => {
-          const assetRegExp = new RegExp(asset);
-
-          if(assetRegExp.test(url)) {
-            console.log("asset: " + asset);
+          if(requestToBlockRegExp.test(url)) {
+            console.log("addressBarUrl " + option.addressBarUrl);
+            console.log("request to block: " + requestToBlockPattern);
             console.log("Canceling " + url + " request");
             console.log('----------');
 
